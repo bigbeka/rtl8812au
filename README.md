@@ -76,7 +76,7 @@ cd rtl*
 ```
 
 ### Installation of Driver
-In order to install the driver open a terminal in the directory with the source code and execute the following command:
+In order to install the driver, (after having completed `For Raspberry (RPI)` section and `sudo reboot now`) open a terminal in the directory with the source code and execute the following command:
 ```
 $ sudo make dkms_install
 ```
@@ -90,7 +90,7 @@ $ sudo make dkms_remove
 ### Make
 For building & installing the driver with 'make' use
 ```
-$ make && make install
+$ sudo make && sudo make install
 ```
 
 Package / Build dependencies (Kali)
